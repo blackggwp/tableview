@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B1056A631E8D0E86006546A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1056A621E8D0E86006546A2 /* AppDelegate.swift */; };
-		B1056A651E8D0E86006546A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1056A641E8D0E86006546A2 /* ViewController.swift */; };
 		B1056A681E8D0E86006546A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1056A661E8D0E86006546A2 /* Main.storyboard */; };
 		B1056A6A1E8D0E86006546A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1056A691E8D0E86006546A2 /* Assets.xcassets */; };
 		B1056A6D1E8D0E86006546A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1056A6B1E8D0E86006546A2 /* LaunchScreen.storyboard */; };
+		B1056A751E8D1266006546A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1056A741E8D1266006546A2 /* ViewController.swift */; };
+		B1056A791E8D1464006546A2 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1056A761E8D1464006546A2 /* 1.jpg */; };
+		B1056A7A1E8D1464006546A2 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1056A771E8D1464006546A2 /* 2.png */; };
+		B1056A7B1E8D1464006546A2 /* qr.png in Resources */ = {isa = PBXBuildFile; fileRef = B1056A781E8D1464006546A2 /* qr.png */; };
+		B1059C2A1E8E37C000EEAEA5 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1059C291E8E37C000EEAEA5 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1056A5F1E8D0E86006546A2 /* tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1056A621E8D0E86006546A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1056A641E8D0E86006546A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1056A671E8D0E86006546A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1056A691E8D0E86006546A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1056A6C1E8D0E86006546A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1056A6E1E8D0E86006546A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1056A741E8D1266006546A2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		B1056A761E8D1464006546A2 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		B1056A771E8D1464006546A2 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		B1056A781E8D1464006546A2 /* qr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr.png; sourceTree = "<group>"; };
+		B1059C291E8E37C000EEAEA5 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = ../Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +62,12 @@
 		B1056A611E8D0E86006546A2 /* tableview */ = {
 			isa = PBXGroup;
 			children = (
+				B1059C291E8E37C000EEAEA5 /* Cell.swift */,
+				B1056A761E8D1464006546A2 /* 1.jpg */,
+				B1056A771E8D1464006546A2 /* 2.png */,
+				B1056A781E8D1464006546A2 /* qr.png */,
+				B1056A741E8D1266006546A2 /* ViewController.swift */,
 				B1056A621E8D0E86006546A2 /* AppDelegate.swift */,
-				B1056A641E8D0E86006546A2 /* ViewController.swift */,
 				B1056A661E8D0E86006546A2 /* Main.storyboard */,
 				B1056A691E8D0E86006546A2 /* Assets.xcassets */,
 				B1056A6B1E8D0E86006546A2 /* LaunchScreen.storyboard */,
@@ -123,7 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1056A7B1E8D1464006546A2 /* qr.png in Resources */,
 				B1056A6D1E8D0E86006546A2 /* LaunchScreen.storyboard in Resources */,
+				B1056A791E8D1464006546A2 /* 1.jpg in Resources */,
+				B1056A7A1E8D1464006546A2 /* 2.png in Resources */,
 				B1056A6A1E8D0E86006546A2 /* Assets.xcassets in Resources */,
 				B1056A681E8D0E86006546A2 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1056A651E8D0E86006546A2 /* ViewController.swift in Sources */,
+				B1056A751E8D1266006546A2 /* ViewController.swift in Sources */,
 				B1056A631E8D0E86006546A2 /* AppDelegate.swift in Sources */,
+				B1059C2A1E8E37C000EEAEA5 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +277,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tableview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = code2exit.tableview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -273,10 +291,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tableview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = code2exit.tableview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -299,6 +319,7 @@
 				B1056A731E8D0E86006546A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
